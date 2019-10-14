@@ -1,0 +1,32 @@
+{
+  "name": "scoreboard",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nps dev",
+    "build": "webpack -p",
+    "start": "qode ./dist/index.js",
+    "debug": "qode --inspect ./dist/index.js"
+  },
+  "dependencies": {
+    "@nodegui/nodegui": "^0.1.9",
+    "@nodegui/react-nodegui": "^0.1.9",
+    "lodash": "^4.17.15",
+    "react": "^16.9.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.144",
+    "@types/node": "^12.6.8",
+    "@types/react": "^16.8.23",
+    "file-loader": "^4.2.0",
+    "node-loader": "^0.6.0",
+    "nodemon": "^1.19.3",
+    "nps": "^5.9.8",
+    "nps-utils": "^1.7.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
+  }
+}
